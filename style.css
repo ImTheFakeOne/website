@@ -1,0 +1,54 @@
+/* Mobile-first responsive design */
+
+/* Make the nav menu stack vertically on smaller screens */
+@media (max-width: 600px) {
+	nav ul {
+		flex-direction: column;
+	}
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+nav {
+	background-color: #eee;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
